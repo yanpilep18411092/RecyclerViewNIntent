@@ -1,3 +1,36 @@
 <resources>
-    <string name="app_name">Recycler View</string>
+    <string name="app_name">RecyclerViewIntent</string>
+
+
+    <string name="udang_selingkuh">Udang Selingkuh</string>
+    <string name="udang_selingkuh_desc">Mendengar namanya saja sudah memantik rasa penasaran, ya, Sahabat?.\n\n
+        Menu ini merupakan hidangan khas Wamena. Dinamakan udang selingkuh karena capitnya yang mirip dengan kepiting. Makanya, warga lokal menyebut udang ini hasil perselingkuhan udang dan kepiting. Lucu, ya?.\n\n
+        Udang yang biasa ditemukan di Sungai Baliem, Danau Paniai, Danau Tage, dan Danau Tigi ini sebenarnya termasuk jenis lobster. Sebelum dimasak, warnanya biru. Namun akan berubah menjadi merah setelah direbus.\n\n
+        Dagingnya sendiri memiliki tekstur seperti lobster. Padat, lembut, juga berserat. Rasanya bisa dibilang cukup unik. Daging udang selingkuh ini terasa gurih dan sedikit manis. Oleh karena itu, cocok sekali dimasak dengan menggunakan bumbu asam manis.\n\n
+        Makanan khas yang satu ini cukup populer di Papua, lho. Bagi Sahabat yang akan mengunjungi Papua, jangan lupa tempatkan makanan sedap nan bergizi ini di dalam daftar teratas kuliner yang harus dicoba, ya!.\n\n
+    </string>
+
+
+    <string name="sarang_semut">Sarang Semut</string>
+    <string name="sarang_semut_desc">Untuk makanan khas Papua yang satu ini, berlaku pepatah don’t judge a book by it’s cover. Namanya memang sarang semut. Tapi sebenarnya ini bukan sarang semut sungguhan kok, Sahabat .\n\n
+        Sarang semut sebenarnya adalah tumbuhan yang hidup di tumbuhan lain. Memang, sih, penampilannya sangat mirip dengan sarang semut yang berongga-rongga dan seperti labirin. Tidak heran masyarakat Papua menamainya demikian.\n\n
+        Penyajian sarang semut biasanya dilakukan dengan mencampurkannya bersama bahan makanan yang lain. Selain sebagai santapan, sarang semut juga biasa diseduh untuk dijadikan obat.\n\n
+        Khasiatnya apa saja? Dilansir dari merdeka.com, konon sarang semut berkhasiat untuk meningkatkan stamina, mengatasi benjolan payudara, mengatasi ambeien, melancarkan menstruasi, mengobati kanker, penyakit jantung, rematik, dan mengatasi migrain.\n\n
+        Bisa dicoba untuk Sahabat yang sedang mengalami keluhan-keluhan di atas.
+    </string>
+
+    <string name="ulat_sagu">Ulat Sagu</string>
+    <string name="ulat_sagu_desc">
+        Kalau yang ini, kuliner khusus untuk penyuka makanan ekstrim.\n\n
+        Mungkin Sahabat bosan dengan kuliner yang biasa-biasa saja? Ulat sagu bisa jadi pilihan yang cocok.\n\n
+        Sahabat bisa memilih, makan ulat sagu mentah, atau diolah dengan digoreng, dibakar, atau dijadikan sate.\n\n
+        Meski bagi yang tidak terbiasa kuliner satu ini terkesan menggelikan, tapi masyarakat Papua percaya kalau ulat sagu dapat memberikan manfaat bagi tubuh.\n\n
+        Dan memang itu tidak salah. Ulat sagu memiliki kandungan protein yang tinggi, dapat meningkatkan kekebalan tubuh, dan mengandung berbagai jenis asam amino yang dapat berguna untuk meningkatkan kualitas tidur.\n\n
+        Tertarik untuk mencoba makanan khas Papua ini?\n
+    </string>
+
+    <string name="makanan3">Makanan Khas 1</string>
+    <string name="makanan3_desc">Deskripsi Makanan khas 3</string>
+
+
 </resources>

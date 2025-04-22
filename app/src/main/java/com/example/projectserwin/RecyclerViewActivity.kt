@@ -1,6 +1,7 @@
 package com.example.projectserwin
 
 import android.content.ClipData.Item
+import android.content.Intent
 import android.os.Bundle
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
@@ -12,12 +13,11 @@ import com.example.projectserwin.databinding.ActivityRecyclerViewBinding
 
 class RecyclerViewActivity : AppCompatActivity() {
 
+    companion object {
+        val INTENT_PARCELABLE = "OBJECT_INTENT"
+    }
+
     private lateinit var binding: ActivityRecyclerViewBinding
-
-
-    private lateinit var myRecyclerView: RecyclerView
-     private lateinit var myExpList: ArrayList<ExampleItem>
-     private lateinit var myExpAdapter: ExampleAdapter
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -30,33 +30,29 @@ class RecyclerViewActivity : AppCompatActivity() {
             insets
         }
 
+        val imgList = listOf<ImgData>(
 
+            ImgData(
+                R.drawable.udang_selingkuh,getString(R.string.udang_selingkuh), getString(R.string.udang_selingkuh_desc)
+            ),
+            ImgData(
+                R.drawable.ulat_sagu,getString(R.string.ulat_sagu), getString(R.string.ulat_sagu_desc)
+            ),
+            ImgData(
+                R.drawable.sarang_semut,getString(R.string.sarang_semut), getString(R.string.sarang_semut_desc)
+            ),
+        )
 
+        val myRecyclerView = findViewById<RecyclerView>(R.id.myRV)
 
-        myRecyclerView = binding.myRV
-        myExpList = generateDataList(500)
-        myExpAdapter = ExampleAdapter(myExpList)
-
-        myRecyclerView.adapter = myExpAdapter
         myRecyclerView.layoutManager = LinearLayoutManager(this)
         myRecyclerView.setHasFixedSize(true)
-
-    }
-
-
-    private fun generateDataList(size: Int): ArrayList<ExampleItem> {
-        val list = ArrayList<ExampleItem>()
-
-        for (i in 0 until size){
-            val drawable = when (i % 3) {
-                0 -> R.drawable.ic_android
-                1 -> R.drawable.ic_audio
-                else -> R.drawable.ic_sun
-            }
-
-            val item = ExampleItem(drawable, "Name $i", "Phone $i")
-            list += item
+        myRecyclerView.adapter = ImgAdapter(this, imgList) { selectedItem ->
+            val intent = Intent(this, DetailActivity::class.java)
+            intent.putExtra(INTENT_PARCELABLE, selectedItem)  // kirim data ImgData
+            startActivity(intent)
         }
-        return list
+
     }
+
 }
