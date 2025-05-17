@@ -1,69 +1,54 @@
 <resources>
-    <string name="app_name">RecyclerViewIntent</string>
 
+    <string name="app_name">Modul-7-RecyclerViewIntent</string>
 
-    <string name="udang_selingkuh">Udang Selingkuh</string>
-    <string name="udang_selingkuh_desc">Mendengar namanya saja sudah memantik rasa penasaran, ya, Sahabat?.\n\n
-        Menu ini merupakan hidangan khas Wamena. Dinamakan udang selingkuh karena capitnya yang mirip dengan kepiting. Makanya, warga lokal menyebut udang ini hasil perselingkuhan udang dan kepiting. Lucu, ya?.\n\n
-        Udang yang biasa ditemukan di Sungai Baliem, Danau Paniai, Danau Tage, dan Danau Tigi ini sebenarnya termasuk jenis lobster. Sebelum dimasak, warnanya biru. Namun akan berubah menjadi merah setelah direbus.\n\n
-        Dagingnya sendiri memiliki tekstur seperti lobster. Padat, lembut, juga berserat. Rasanya bisa dibilang cukup unik. Daging udang selingkuh ini terasa gurih dan sedikit manis. Oleh karena itu, cocok sekali dimasak dengan menggunakan bumbu asam manis.\n\n
-        Makanan khas yang satu ini cukup populer di Papua, lho. Bagi Sahabat yang akan mengunjungi Papua, jangan lupa tempatkan makanan sedap nan bergizi ini di dalam daftar teratas kuliner yang harus dicoba, ya!.\n\n
+    <!--  NOKEN  -->
+    <string name="noken_gantung">Noken Gantung</string>
+    <string name="noken_gantung_desc">
+    Jenis noken yang paling umum, digunakan dengan cara digantungkan di kepala. Digunakan oleh wanita untuk membawa hasil kebun, kayu bakar, atau barang dagangan.\n\n
+    Ciri khas: Tali panjang, kantong besar dan fleksibel.
     </string>
 
-
-    <string name="sarang_semut">Sarang Semut</string>
-    <string name="sarang_semut_desc">Untuk makanan khas Papua yang satu ini, berlaku pepatah don’t judge a book by it’s cover. Namanya memang sarang semut. Tapi sebenarnya ini bukan sarang semut sungguhan kok, Sahabat .\n\n
-        Sarang semut sebenarnya adalah tumbuhan yang hidup di tumbuhan lain. Memang, sih, penampilannya sangat mirip dengan sarang semut yang berongga-rongga dan seperti labirin. Tidak heran masyarakat Papua menamainya demikian.\n\n
-        Penyajian sarang semut biasanya dilakukan dengan mencampurkannya bersama bahan makanan yang lain. Selain sebagai santapan, sarang semut juga biasa diseduh untuk dijadikan obat.\n\n
-        Khasiatnya apa saja? Dilansir dari merdeka.com, konon sarang semut berkhasiat untuk meningkatkan stamina, mengatasi benjolan payudara, mengatasi ambeien, melancarkan menstruasi, mengobati kanker, penyakit jantung, rematik, dan mengatasi migrain.\n\n
-        Bisa dicoba untuk Sahabat yang sedang mengalami keluhan-keluhan di atas.
+    <string name="noken_sekolah">Noken Sekolah</string>
+    <string name="noken_sekolah_desc">
+    Digunakan oleh pelajar Papua untuk membawa buku dan alat tulis. Ukurannya sedang, lebih praktis, dan kadang memiliki warna-warna cerah.\n\n
+    Ciri khas: Lebih ringan, desainnya lebih modern.
     </string>
 
-    <string name="ulat_sagu">Ulat Sagu</string>
-    <string name="ulat_sagu_desc">
-        Kalau yang ini, kuliner khusus untuk penyuka makanan ekstrim.\n\n
-        Mungkin Sahabat bosan dengan kuliner yang biasa-biasa saja? Ulat sagu bisa jadi pilihan yang cocok.\n\n
-        Sahabat bisa memilih, makan ulat sagu mentah, atau diolah dengan digoreng, dibakar, atau dijadikan sate.\n\n
-        Meski bagi yang tidak terbiasa kuliner satu ini terkesan menggelikan, tapi masyarakat Papua percaya kalau ulat sagu dapat memberikan manfaat bagi tubuh.\n\n
-        Dan memang itu tidak salah. Ulat sagu memiliki kandungan protein yang tinggi, dapat meningkatkan kekebalan tubuh, dan mengandung berbagai jenis asam amino yang dapat berguna untuk meningkatkan kualitas tidur.\n\n
-        Tertarik untuk mencoba makanan khas Papua ini?\n
+    <string name="noken_raja">Noken Raja</string>
+    <string name="noken_raja_desc">
+    Noken yang dikenakan oleh kepala suku atau tokoh adat saat upacara adat. Biasanya memiliki hiasan khusus dan dibuat lebih mewah.\n\n
+    Ciri khas: Dihiasi manik-manik, bulu burung cenderawasih, dan bahan eksklusif.
     </string>
 
-    <string name="sabeta">Sabeta</string>
-    <string name="sabeta_desc">D
-        eskripsi Sabeta
+    <string name="noken_bayi">Noken Bayi</string>
+    <string name="noken_bayi_desc">
+    Digunakan oleh ibu-ibu Papua untuk menggendong bayi. Dibuat lebih kuat dan nyaman untuk kulit bayi.\n\n
+    Ciri khas: Kantong besar dan lebar, dengan tali yang kuat dan empuk.
     </string>
 
-    <string name="eurimoo">Eurimoo</string>
-    <string name="eurimoo_desc">
-        Apa yang pertama terlintas di pikiran Sahabat ketika melihat gambarnya? Mirip jajanan pasar dari Jawa yang bulat-bulat berisi gula merah alias klepon? Kalau ya, Sahabat tidak salah, kok!\n\n
-        Memang dari penampilan luarnya, mirip sekali. Tapi kalau sudah bicara bahan dasar, akan terlihat bedanya. Makanan khas Papua yang satu ini terbuat dari pisang, tepung sagu, dan gula pasir. \n\n
-        Kalau klepon biasanya diisi gula merah, eurimoo tidak demikian. Bagian dalam kuenya kosong melompong.\n\n
-        Rasanya bagaimana? Sudah tentu ada rasa manis dari bahan-bahan dasarnya, serta gurih dari parutan kelapa yang ditaburi di bagian luar. Teksturnya mirip dengan klepon juga, kenyal dan lembut.\n\n
-        Untuk Sahabat yang tertarik mencoba, bisa menemukannya di acara adat seperti pernikahan atau khitanan.\n\n
+    <string name="noken_mini">Noken Mini</string>
+    <string name="noken_mini_desc">
+    Versi kecil dari noken, digunakan sebagai aksesori atau cinderamata. Sering dijual kepada wisatawan sebagai oleh-oleh.\n\n
+    Ciri khas: Ukuran kecil, bentuk lucu, banyak variasi warna.
     </string>
 
-    <string name="aunu_senebre">Aunu Senebre</string>
-    <string name="aunu_senebre_desc">
-        Jika makanan-makanan lain sebelumnya memiliki nama yang sangat mencerminkan bahan atau bentuknya, makanan khas Papua yang satu ini namanya terdengar sedikit asing; Aunu Senebre.\n\n
-        Tapi, sebenarnya bahannya tidak seasing itu di lidah. Aunu Senebre memiliki bahan dasar yang terdiri atas ikan teri dan nasi putih yang digoreng. Kedua bahan itu lalu dicampur dengan parutan kelapa dan irisan daun talas. Terakhir, seluruh bahan yang sudah tercampur dikukus hingga matang.\n\n
-        Wah, sudah pasti terbayang rasa gurih yang tertinggal di dalam mulut dari ikan teri dan parutan kelapanya, ya, Sahabat. Dan kalau Sahabat mengira teksturnya akan kering karena kombinasi bahan-bahan yang digunakan, maka salah besar. Tekstur makanan ini cukup basah.\n\n
-        Nah, biasanya aunu senebre ini dinikmati bersama papeda atau umbi-umbian. Layak dicoba, kan?\n
+    <string name="noken_upacara">Noken Upacara</string>
+    <string name="noken_upacara_desc">
+    Digunakan dalam ritual adat atau keagamaan, biasanya oleh wanita dewasa. Memiliki makna simbolis dalam budaya lokal.\n\n
+    Ciri khas: Warna dan motif tertentu yang melambangkan adat atau status.
     </string>
 
-    <string name="keripik_keladi">Keripik Keladi</string>
-    <string name="keripik_keladi_desc">
-        Mencari cemilan untuk dimakan sendiri atau dijadikan oleh-oleh? Keripik keladi bisa jadi pilihan.\n\n
-        Sesuai dengan namanya, keripik ini berasal dari umbi-umbian keladi. Biasanya makanan khas Papua yang satu ini dijual dengan tiga pilihan rasa, pedas, gurih, dan manis.\n\n
-        Makanan yang satu ini adalah salah satu oleh-oleh khas Papua yang sangat populer. Sahabat tidak akan sulit menemukannya jika berkunjung ke Papua. Keripik keladi dapat ditemukan di toko oleh-oleh, pasar, supermarket, bandara, hingga di sekitar pelabuhan.\n
+    <string name="noken_perang">Noken Perang</string>
+    <string name="noken_perang_desc">
+    Digunakan oleh pria dalam peperangan tradisional atau saat berburu. Dirancang agar kuat dan tahan banting.\n\n
+    Ciri khas: Warna gelap, bahan lebih kasar dan kuat.
     </string>
 
-    <string name="sagu_lempeng">Sagu Lempeng</string>
-    <string name="sagu_lempeng_desc">
-        Makanan khas Papua memang kaya akan makanan yang berhubungan dengan sagu. Selain papeda yang sudah cukup dikenal, dan ulat sagu yang ekstrim, ada lagi olahan sagu lain yang patut dicicipi. Namanya, sagu lempeng.\n\n
-        Makanan yang satu ini cara pengolahannya mirip roti, makanya sering dianggap rotinya masyarakat Papua. Hanya saja, teksturnya memang lebih keras. Bentuknya pun seperti lempengan. Biasanya, sagu lempeng dinikmati bersama teh atau kopi dengan cara dicelupkan supaya sedikit melunak. Paling enak disantap ketika masih hangat.\n\n
-        Berbeda dengan makanan yang lain, sagu lempeng mungkin akan sedikit sulit untuk dicari. Sebab di Papua sana, hidangan ini menjadi makanan konsumsi keluarga.\n\n
-        Kalau memang berminat, Sahabat mungkin bisa tanya penduduk di sana saat berkunjung, ya.\n
+    <string name="noken_modern">Noken Modern</string>
+    <string name="noken_modern_desc">
+    Inovasi noken dengan desain kekinian, kadang dibuat dengan kombinasi benang sintetis atau bahan daur ulang.\n\n
+    Ciri khas: Bisa dipakai seperti tas selempang atau ransel, banyak dijual di kota besar.
     </string>
 
 </resources>
